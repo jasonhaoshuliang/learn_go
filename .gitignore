@@ -1,2 +1,32 @@
+# IDE config and Log
+pkg
+sync_blog
+swagger
+main
+*.txt
+web_backend*
+web_backend.*
+release
+./scripts/export_env.sh
+.idea/*.xml
+.idea/*.iml
+.idea/codeStyles/*.xml
+.idea/dataSources/*.xml
+.pprof
+*.log
+.sql
 .idea
-.idea/*
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+.DS_Store
+.vscode
